@@ -3,7 +3,7 @@ services:
     name: litestar-price-api
     env: python
     plan: free
-    repo: https://github.com/Sushanth01Medlr/RENDER_API
+    repo: https://github.com/Sushanth01Medlr/delivery_cost
     branch: main
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
